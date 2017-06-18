@@ -1,0 +1,145 @@
+.spiderApp.skin-blue .inline {display: inline-block;}
+.spiderApp.skin-blue a {cursor: pointer;}
+.spiderApp.skin-blue .hidden {display: none;}
+.spiderApp.skin-blue .table {font-size: 14px;}
+.spiderApp.skin-blue oi-select .select-search {border-radius: 0;}
+.spiderApp.skin-blue oi-select .select-dropdown {min-width: 0; overflow-x: auto;}
+.spiderApp.skin-blue .invoice {margin: 0;}
+.spiderApp.skin-blue .navbar-nav a .fa {line-height: 20px;}
+.spiderApp.skin-blue .btn-group.pull-right {margin-top: -10px;}
+.spiderApp.skin-blue .form-control.inline {display: inline-block; width: 60%; background-color: transparent;}
+.spiderApp.skin-blue .form-control.inline.select {border: none; padding-left: 0; padding-right: 0; padding-top: 10px;}
+.spiderApp.skin-blue .form-control .Select-menu-outer {margin-top: 10px;}
+/* .spiderApp.skin-blue .sidebar-menu .treeview-menu {display: block;} */
+.spiderApp.skin-blue .sidebar-menu .treeview-menu>li>a {padding-left: 35px;}
+.spiderApp.skin-blue .modal-dialog.modal-sm {margin-top: 15%;}
+.spiderApp.skin-blue .info-box .fa {line-height: 90px;}
+.spiderApp.skin-blue .info-box-text {white-space: normal;}
+
+.spiderApp.skin-blue .main-header .navbar {background-color: #fff; border-bottom: 1px solid #eee;}
+.spiderApp.skin-blue .main-header .navbar .nav>li>a {color: #357ca5;}
+.spiderApp.skin-blue .main-header .navbar .sidebar-toggle:before {content: "\f0c9"; line-height: 20px;}
+.spiderApp.skin-blue .main-header .navbar .sidebar-toggle {color: #357ca5;}
+.spiderApp.skin-blue .main-header .navbar .sidebar-toggle:hover {background-color: rgba(0,0,0,0.1); color: #357ca5 !important;}
+.spiderApp.skin-blue .main-header .navbar .nav>li>a:hover {background-color: rgba(0,0,0,0.1); color: #357ca5;}
+
+.spiderApp.skin-blue .content-wrapper, .spiderApp.skin-blue .right-side, .spiderApp.skin-blue .content.large {background-color: #f4f4f4; min-height: 100%;}
+.spiderApp.skin-blue .bm-burger-button {background-color: transparent; z-index: 1031 !important; width: 78px; height: 50px; position: fixed; right: 0; top: 0;}
+.spiderApp.skin-blue .bm-burger-button:hover {opacity: 0.1; background-color: #000;}
+.spiderApp.skin-blue .control-sidebar {height: 100%;}
+.spiderApp.skin-blue .breadcrumb {background-color: #fff;}
+
+.spiderApp.skin-blue .content-wrapper .dataform {min-height: 100px;}
+.spiderApp.skin-blue .content-wrapper .breadcrumb .fa {padding-right: 5px;}
+.spiderApp.skin-blue .content-wrapper .box {box-shadow: 0 1px 1px rgba(0,0,0,0);}
+.spiderApp.skin-blue .content-wrapper .arrow {height: 250px; font-size: 20px; padding-top: 100px;}
+.spiderApp.skin-blue .content-wrapper .btn.btn-small {border: none; padding: 1px 5px;}
+.spiderApp.skin-blue .content-wrapper .form-control.inline.number {width: 150px;}
+.spiderApp.skin-blue .content-wrapper .pull-right.button {cursor: pointer;}
+.spiderApp.skin-blue .content-wrapper .pull-right.button i{line-height: 20px;}
+
+.spiderApp.skin-blue .content-wrapper oi-select .select-dropdown {width: 100%;}
+
+/* home */
+.spiderApp.skin-blue .home .single {height: 200px; background: url(../img/single.png) 50% 80% no-repeat;}
+.spiderApp.skin-blue .home .theme {height: 200px; background: url(../img/theme.png) 50% 80% no-repeat;}
+.spiderApp.skin-blue .home .custom {height: 200px; background: url(../img/custom.png) 50% 80% no-repeat;}
+.spiderApp.skin-blue .home .btn {width:124px;}
+.spiderApp.skin-blue .home .btn-box {padding-bottom: 30px; background-color: #fff;}
+
+/* 单品营销 */
+/* createJob */
+.spiderApp.skin-blue .singleMarket .createJob {width: 800px; margin: 0 auto;}
+.spiderApp.skin-blue .singleMarket .createJob .chooseProduct .category1 {width: 120px; display: inline-block; float: left;}
+.spiderApp.skin-blue .singleMarket .createJob .chooseProduct .category2 {width: 120px; margin-left: 10px; display: inline-block; float: left;}
+.spiderApp.skin-blue .singleMarket .createJob .chooseProduct .product {width: 360px; margin-left: 10px; display: inline-block; float: left;}
+.spiderApp.skin-blue .singleMarket .createJob .chooseProduct .delete {width: 100px; display: inline-block; float: left; margin-left: 20px;}
+
+/* 自定义 */
+/* createItem */
+.spiderApp.skin-blue .createItem .logicExpr .attribute {width: 190px; display: inline-block; float: left;}
+.spiderApp.skin-blue .createItem .logicExpr .logic {width:48px; display: inline-block; float: left; margin-left: 10px;}
+.spiderApp.skin-blue .createItem .logicExpr .value {width: 100px; display: inline-block; float: left; margin-left: 10px;}
+.spiderApp.skin-blue .createItem .logicExpr .relation {width:80px; display: inline-block; float: left; margin-left: 30px;}
+.spiderApp.skin-blue .createItem .logicExpr .delete {width: 100px; display: inline-block; float: left;}
+.spiderApp.skin-blue .createItem .addExpr {cursor: pointer;}
+
+/* charts */
+.spiderApp.skin-blue .charts .dataform .col-md-4 {padding-left: 5px; padding-right: 5px;}
+
+/* createClass */
+.spiderApp.skin-blue .createClass .invoice.drivenItem {}
+.spiderApp.skin-blue .createClass .invoice.drivenItem .drivenItems {height: 205px; overflow: auto;}
+.spiderApp.skin-blue .createClass .invoice.drivenItem .btn.pull-right {margin-top: -25px;}
+.spiderApp.skin-blue .createClass .invoice.preview {height: 490px; overflow: auto;}
+
+/* modifyClass */
+.spiderApp.skin-blue .modifyClass .drivenItem .drivenItems {height: 205px; overflow: auto;}
+.spiderApp.skin-blue .modifyClass .drivenItem .btn.pull-right {margin-top: -25px;}
+.spiderApp.skin-blue .modifyClass .preview {height: 535px; overflow: auto;}
+
+/* classOverview */
+.spiderApp.skin-blue .classOverview .class-table li>div {display: inline-block;}
+.spiderApp.skin-blue .classOverview .class-table .id {width: 60px;}
+.spiderApp.skin-blue .classOverview .class-table .name {min-width: 120px;}
+.spiderApp.skin-blue .classOverview .class-table .data-source {min-width: 200px;}
+.spiderApp.skin-blue .classOverview .class-table .operations {width: 300px;}
+.spiderApp.skin-blue .classOverview .class-line {cursor: pointer;}
+.spiderApp.skin-blue .classOverview .collapse-line {display: none;}
+.spiderApp.skin-blue .classOverview .collapse-line.open {
+	animation: collapse 2s;
+	-webkit-animation: collapse 2s;
+    -ms-animation: collapse 2s;
+    -moz-animation: collapse 2s;
+    -o-animation: collapse 2s;
+    display: block;
+	}
+@keyframes collapse {
+    0% {height: 0}
+    50% {height: 50%;}
+    100% {height: 100%;}
+}
+@-webkit-keyframes collapse {
+    0% {height: 0}
+    50% {height: 50%;}
+    100% {height: 100%;}
+}
+@-ms-keyframes collapse {
+    0% {height: 0}
+    50% {height: 50%;}
+    100% {height: auto;}
+}
+@-moz-keyframes collapse {
+    0% {height: 0}
+    50% {height: 50%;}
+    100% {height: auto;}
+}
+@-o-keyframes collapse {
+    0% {height: 0}
+    50% {height: 50%;}
+    100% {height: auto;}
+}
+/* resultCheck */
+.spiderApp.skin-blue .resultCheck .invoice .page-header span {font-size: 16px; font-weight: normal; color: #000; margin-left: 10px; white-space: nowrap;}
+.spiderApp.skin-blue .resultCheck .invoice .btn-filter {display: inline-block; position: relative; cursor: default; padding: 6px 8px; margin-right: 10px;}
+.spiderApp.skin-blue .resultCheck .invoice .btn-filter label {margin-bottom: 0;}
+.spiderApp.skin-blue .resultCheck .invoice .btn-filter .fa {font-size: 16px; position: absolute; top: -10px; right: -6px; cursor: pointer;}
+
+/* addFilter */
+.spiderApp.skin-blue .addFilter .logicExpr .attribute {width: 190px; display: inline-block; float: left;}
+.spiderApp.skin-blue .addFilter .logicExpr .logic {width:48px; display: inline-block; float: left; margin-left: 10px;}
+.spiderApp.skin-blue .addFilter .logicExpr .value {width: 100px; display: inline-block; float: left; margin-left: 10px;}
+.spiderApp.skin-blue .addFilter .logicExpr .relation {width:80px; display: inline-block; float: left; margin-left: 20px;}
+.spiderApp.skin-blue .addFilter .logicExpr .delete {width: 80px; display: inline-block; float: left;}
+
+@media (max-width: 991px) {
+.spiderApp.skin-blue .content-wrapper .arrow {display: none;}
+}
+@media (max-width: 767px) {
+.spiderApp.skin-blue .main-header .navbar .sidebar-toggle {display: block; color: #fff; position: absolute; top: -50px;}
+.spiderApp.skin-blue .main-header .navbar .sidebar-toggle:before {content: "\f0c9";}
+.spiderApp.skin-blue .main-header .navbar .sidebar-toggle.close-sidebar:before {content: "\f0c9";}
+.spiderApp.skin-blue .main-header .navbar .sidebar-toggle:hover {background-color: #357ca5; color: #fff !important;}
+.spiderApp.skin-blue .bm-burger-button {width: 45px; height: 50px; top: 50px;}
+
+}
