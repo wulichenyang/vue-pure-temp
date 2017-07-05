@@ -3,7 +3,6 @@ import VueRouter from 'vue-router';
 
 import Header from 'components/default/header.js';
 import Content from 'components/default/Content.js';
-import Login from 'components/login';
 
 Vue.use(VueRouter);
 
@@ -15,15 +14,9 @@ const routes =  [
       content: Content
     },
     children: [
-      { path: 'login', name: 'login', component: Login }
+      // { path: 'login', name: 'login', component: Login }
     ]
   },
-  // {
-  //   path:'/login',
-  //   components: {
-  //     content: Login
-  //   }
-  // }
 ];
 
 export default new VueRouter({

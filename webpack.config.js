@@ -71,6 +71,7 @@ module.exports = {
   resolve: {
     alias: {
       components: path.join(__dirname, './src/components'),
+      config: path.join(__dirname, './src/config'),
       // charts: path.join(__dirname, './src/charts'),
       store: path.join(__dirname, './src/store'),
       lib: path.join(__dirname, './src/lib'),
@@ -100,14 +101,14 @@ module.exports = {
         target: 'http://192.168.1.97:8080/',
         pathRewrite: {"^/mars-api-v1" : ""}
       },
-      '/mars-api-v1/r': {
+      '/mars-api-v1': {
         // server@client
         // target: 'https://192.168.1.2:8443/',
         // secure: false
 
         // server@qiongjie
         target: 'http://192.168.1.187:9123/',
-        pathRewrite: {"^/mars-api-v1/r" : ""}
+        // pathRewrite: {"^/mars-api-v1" : ""}
       }
     }
   },

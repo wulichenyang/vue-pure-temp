@@ -1,8 +1,32 @@
-<main>
+<div>
+  <aside class="main-sidebar">
+    <section class="sidebar" tree-view="true">
+      <ul class="sidebar-menu">
+        <li class="header">MAIN NAVIGATION</li>
 
-  <h1>content title</h1>
-  
-  <router-view class="fadeIn"></router-view>
-  
-  <footer><h1>footer</h1></footer>
-</main>
+        <li class="navigation">
+          <router-link to="/link1" exact>
+            <i class="fa fa-line-chart"></i><span>link1</span>
+          </router-link>
+        </li>
+        <li class="navigation">
+          <router-link to="/link2" exact>
+            <i class="fa fa-line-chart"></i><span>link2</span>
+          </router-link>
+
+        </li>
+      </ul>
+    </section>
+  </aside>
+
+  <main class="content-wrapper">
+    <router-view class="main-content fadeIn child"></router-view>
+  </main>
+
+  <footer class="main-footer">
+    <div class="pull-right hidden-xs version">
+      <p>Version: v1.0.0</p>
+    </div>
+    <strong>Copyright &copy; 2016 - 2017 <a href="#">SpiderDT</a>.</strong> All rights reserved.
+  </footer>
+</div>

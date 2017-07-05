@@ -29,7 +29,7 @@ export default (url, method = GET) => {
       headers.token = window.token;
     }
     return new Promise((f, r) => {
-      fetch(`/${API_VERSION}${url}${appendToUrl.join('')}`, {
+      fetch(`/${window.env}${url}${appendToUrl.join('')}`, {
         method,
         body: method === GET ? undefined : JSON.stringify(data),
         headers
@@ -37,14 +37,15 @@ export default (url, method = GET) => {
         if(res.ok) {
           return res.json();
         }else {
+          console.log('else res')
           throw new Error(res);
         }
       }).then(res => {
+      console.log('f before catch')
         f(res);
-      }, error => {
-        // todo
       }).catch(res => {
-        // todo
+        console.log('catch')
+        f({status: 500})
       });
     });
   };
