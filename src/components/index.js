@@ -17,11 +17,5 @@ Vue.use(MuseUI);
 
 export default new Vue({
   router,
-  store,
-  template: `
-    <div class="wrapper">
-      <router-view name="header"></router-view>
-      <router-view name="content"></router-view>
-    </div>
-  `
+  store
 });
